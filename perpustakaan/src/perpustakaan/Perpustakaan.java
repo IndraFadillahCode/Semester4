@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 public class Perpustakaan {
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://127.0.0.1/LatihanJavaDB"; // Adjust this to your database
+    static final String DB_URL = "jdbc:mysql://127.0.0.1/LatihanJavaDB"; 
     static final String USER = "root";
     static final String PASS = "";
     
@@ -32,7 +32,7 @@ public class Perpustakaan {
             System.out.println("5. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
